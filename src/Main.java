@@ -45,19 +45,21 @@ public class Main {
             MongoCollection<User> collection = db.getCollection("UsersData", User.class);
 
             // Self checkin test
-//            User user = new User("Bernie", "S9722334B", "Bernie.com");
-//            UserDataController controller = new UserDataController();
-//            boolean rs = controller.selfCheckIn(user, collection);
-//	       	  System.out.println(rs);  
-            
-
+			
+			/*
+			 * User user = new User("test", "S9722334B", "Bernie.com"); UserDataController
+			 * controller = new UserDataController(); boolean rs =
+			 * controller.selfCheckIn(user, collection); System.out.println(rs);
+			 */
+			 
             
             
             //Self checkout test
-//            User user = new User("Gideon", "S9711228B", "Compassvale Street");
-//            UserDataController controller = new UserDataController();
-//            boolean rs = controller.selfCheckOut(user, collection);
-//            System.out.println(rs);  
+			/*
+			 * User user = new User("Gideon", "S9711228B", "Compassvale Street");
+			 * UserDataController controller = new UserDataController(); boolean rs =
+			 * controller.selfCheckOut(user, collection); System.out.println(rs);
+			 */
 
         }
 	}
